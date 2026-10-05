@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite Baihan Lin (2026), COMPASS 2.0: psychometric representational similarity analysis distinguishes symptom structure from personal signal. arXiv: TBA (identifier pending announcement)."
+title: "xpsych: A Python toolbox for explainable psychiatry"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Baihan
+    email: doerlbh@gmail.com
+version: 0.1.0a1
+license: MIT
+repository-code: "https://github.com/linlab/xpsych"
+preferred-citation:
+  type: unpublished
+  title: "COMPASS 2.0: psychometric representational similarity analysis distinguishes symptom structure from personal signal"
+  authors:
+    - family-names: Lin
+      given-names: Baihan
+  year: 2026
+  notes: "Submitted to arXiv; identifier TBA."

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xpsych"
+version = "0.1.0a1"
+description = "A Python toolbox for explainable psychiatry"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Baihan Lin", email = "doerlbh@gmail.com"}]
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+text = ["sentence-transformers>=3", "transformers>=4.40,<5", "torch>=2"]
+paper = ["pandas>=2", "pyarrow>=15", "matplotlib>=3.8", "pillow>=10"]
+dev = ["pytest>=8", "pytest-cov>=5", "build>=1.2", "twine>=5", "ruff>=0.9"]
+docs = ["mkdocs>=1.6"]
+
+[project.urls]
+Repository = "https://github.com/linlab/xpsych"
+Issues = "https://github.com/linlab/xpsych/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/xpsych"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tests", "/examples", "/docs", "/papers/compass2", "/README.md", "/LICENSE", "/CHANGELOG.md", "/CITATION.cff", "/mkdocs.yml", "/pyproject.toml"]
+exclude = ["**/__pycache__", "**/.DS_Store", "**/derived", "**/results", "**/figures", "**/models", "**/input"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+exclude = ["papers", "src/xpsych/_geometry.py", "tests/test_geometry.py"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

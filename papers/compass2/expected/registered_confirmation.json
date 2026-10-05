@@ -1,0 +1,87 @@
+{
+ "minilm": {
+  "persons": 86,
+  "H1": {
+   "r_naive_wording": 0.6327836451316672,
+   "r_naive_selfreport": 0.36258718223576564,
+   "difference": 0.27019646289590155,
+   "interval": [
+    0.11105011985659831,
+    0.545733139259488
+   ],
+   "interval_level": 0.975,
+   "supported": true
+  },
+  "H2": {
+   "partial_r": 0.007775065271439231,
+   "p_freedman_lane": 0.931006899310069,
+   "supported_uncorrected": false,
+   "p_holm": 0.931006899310069,
+   "supported": false
+  },
+  "H3": {
+   "mean_same_item_r": 0.24346328605193218,
+   "mean_different_item_r": 0.20507781364895591,
+   "difference": 0.03838547240297627,
+   "interval": [
+    0.006858969846563774,
+    0.07241186324739006
+   ],
+   "interval_level": 0.9833333333333333,
+   "supported": true
+  }
+ },
+ "bge": {
+  "persons": 86,
+  "H1": {
+   "r_naive_wording": 0.6483714497450233,
+   "r_naive_selfreport": 0.2132525818775026,
+   "difference": 0.43511886786752063,
+   "interval": [
+    0.3314122958032871,
+    0.5839147605601192
+   ],
+   "interval_level": 0.975,
+   "supported": true
+  },
+  "H2": {
+   "partial_r": -0.09556001472013007,
+   "p_freedman_lane": 0.0524947505249475,
+   "supported_uncorrected": false,
+   "p_holm": 0.15418458154184583,
+   "supported": false
+  },
+  "H3": {
+   "mean_same_item_r": 0.3670801865743272,
+   "mean_different_item_r": 0.3255211041536422,
+   "difference": 0.04155908242068501,
+   "interval": [
+    0.013438003165939237,
+    0.07299989970289517
+   ],
+   "interval_level": 0.9833333333333333,
+   "supported": true
+  }
+ },
+ "nli": {
+  "persons": 86,
+  "H2": {
+   "partial_r": 0.11842143927257746,
+   "p_freedman_lane": 0.051394860513948606,
+   "supported_uncorrected": false,
+   "p_holm": 0.15418458154184583,
+   "supported": false
+  },
+  "H3": {
+   "mean_same_item_r": 0.2959192856950556,
+   "mean_different_item_r": 0.2911398531525863,
+   "difference": 0.00477943254246932,
+   "interval": [
+    -0.021660935626404317,
+    0.03493786146053738
+   ],
+   "interval_level": 0.9833333333333333,
+   "supported": false
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "sessions": 258,
+ "turns": 10818,
+ "turns_per_session_median": 31.0,
+ "sessions_also_in_annomi": 74,
+ "sessions_independent_of_annomi": 184,
+ "roles": {
+  "therapist": 5445,
+  "client": 5373
+ }
+}

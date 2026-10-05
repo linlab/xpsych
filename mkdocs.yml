@@ -1,0 +1,10 @@
+site_name: xpsych
+site_description: A Python toolbox for explainable psychiatry
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Concepts: concepts.md
+  - API: api.md
+  - Text scoring: text-scoring.md
+  - Reproduce COMPASS 2.0: reproduction.md
+  - Data and instruments: data-and-instruments.md

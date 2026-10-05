@@ -1,0 +1,33 @@
+name: Tests and distributions
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[dev,docs]'
+      - run: python -m pytest --cov=xpsych --cov-fail-under=95
+      - run: python -m ruff check src tests examples
+      - run: python -m mkdocs build --strict
+      - run: python -m build
+      - run: python -m twine check dist/*
+      - run: |
+          python -m venv /tmp/xpsych-wheel
+          /tmp/xpsych-wheel/bin/python -m pip install dist/*.whl
+          cd /tmp
+          /tmp/xpsych-wheel/bin/python -c 'import xpsych; print(xpsych.__version__)'
+  paper-synthetic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install '.[paper]'
+      - run: python papers/compass2/run.py test

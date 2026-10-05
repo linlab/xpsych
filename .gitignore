@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv*/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+site/
+papers/*/input/
+papers/*/models/
+papers/*/derived/
+papers/*/results/
+papers/*/figures/
+papers/*/expected/paper_values.json
+# Local compatibility path for older projects; never ship source datasets.
+/research/
+
+# Local development notes; excluded from public distributions.
+/.maintainer/

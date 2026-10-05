@@ -1,0 +1,132 @@
+{
+ "provenance": {
+  "threshold": 0.3,
+  "counts": [
+   {
+    "registered_excluded": false,
+    "id_status": "ID distinct",
+    "text_status": "screen-negative",
+    "n": 176
+   },
+   {
+    "registered_excluded": false,
+    "id_status": "ID distinct",
+    "text_status": "text match",
+    "n": 8
+   },
+   {
+    "registered_excluded": true,
+    "id_status": "ID distinct",
+    "text_status": "screen-negative",
+    "n": 1
+   },
+   {
+    "registered_excluded": true,
+    "id_status": "ID match",
+    "text_status": "screen-negative",
+    "n": 4
+   },
+   {
+    "registered_excluded": true,
+    "id_status": "ID match",
+    "text_status": "text match",
+    "n": 49
+   },
+   {
+    "registered_excluded": true,
+    "id_status": "ID unresolved",
+    "text_status": "screen-negative",
+    "n": 15
+   },
+   {
+    "registered_excluded": true,
+    "id_status": "ID unresolved",
+    "text_status": "text match",
+    "n": 5
+   }
+  ],
+  "registered_sample_containment_max_below": 0.0273,
+  "registered_sample_containment_min_above": 0.5405
+ },
+ "discovery_cluster": {
+  "auc_stance": 0.5474308300395256,
+  "auc_cos": 0.6624505928853754,
+  "interval_stance": [
+   0.42034732783855827,
+   0.6711993574603966
+  ],
+  "interval_difference": [
+   -0.2753658327086457,
+   0.03991841673206847
+  ],
+  "sessions": 133,
+  "clusters": 119
+ },
+ "registered_184": {
+  "auc_stance": 0.6815772462831287,
+  "auc_cos": 0.5641887524240465,
+  "interval_stance": [
+   0.5825878364610864,
+   0.772819924668798
+  ],
+  "interval_difference": [
+   -0.008848214285714275,
+   0.24251689634973475
+  ],
+  "sessions": 184,
+  "clusters": 156
+ },
+ "registered_screen_negative": {
+  "auc_stance": 0.6948217317487266,
+  "auc_cos": 0.5500848896434635,
+  "interval_stance": [
+   0.5944274560832792,
+   0.7845746080327144
+  ],
+  "interval_difference": [
+   0.013178146258503401,
+   0.274696839685484
+  ],
+  "sessions": 176,
+  "clusters": 150
+ },
+ "all_screen_negative": {
+  "auc_stance": 0.6776246023329798,
+  "auc_cos": 0.553788146577118,
+  "interval_stance": [
+   0.5854627384507158,
+   0.7649486842105263
+  ],
+  "interval_difference": [
+   -0.00012363218744989758,
+   0.24631826784767955
+  ],
+  "sessions": 192,
+  "clusters": 166
+ },
+ "registered_184_untruncated": {
+  "segments": 2043,
+  "segments_over_limit_share": 0.13901125795398922,
+  "auc_stance": 0.6758888170652877,
+  "auc_cos": 0.5641887524240465,
+  "interval_stance": [
+   0.5812628121411589,
+   0.7671031058668525
+  ],
+  "interval_difference": [
+   -0.01881214635638733,
+   0.23937629652664505
+  ],
+  "sessions": 184,
+  "clusters": 156
+ },
+ "discovery_segments_over_limit_share": 0.04247572815533981,
+ "range_stance_auc": [
+  0.6758888170652877,
+  0.6948217317487266
+ ],
+ "range_difference_lower_bound": [
+  -0.01881214635638733,
+  0.013178146258503401
+ ]
+}

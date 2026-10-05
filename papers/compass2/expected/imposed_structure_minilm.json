@@ -1,0 +1,100 @@
+{
+ "daicwoz": {
+  "windows": 10533,
+  "persons": 189,
+  "eta2_group_median": 0.109585393942773,
+  "eta2_group_range": [
+   0.05793381434346478,
+   0.14979634215237694
+  ],
+  "eta2_person_median": 0.03933236258006388,
+  "r_wording": {
+   "window_raw": 0.8904549586593442,
+   "window_centred": 0.8984784063508328,
+   "person_raw": 0.6777201394935024,
+   "person_centred": 0.6265117840782835,
+   "person_centred_whitened": 0.39510315896535964
+  },
+  "effective_rank": {
+   "wording": 5.956729827576523,
+   "person_centred": 2.478312102607921
+  },
+  "reliability_population": {
+   "raw": {
+    "raw": {
+     "split_half": 0.9482152777508517,
+     "spearman_brown": 0.973419404497776
+    },
+    "whitened": {
+     "split_half": 0.7749641519421451,
+     "spearman_brown": 0.8732166800035802
+    }
+   },
+   "centred": {
+    "raw": {
+     "split_half": 0.9386814653779064,
+     "spearman_brown": 0.9683710110623353
+    },
+    "whitened": {
+     "split_half": 0.787714078346513,
+     "spearman_brown": 0.8812528668735249
+    }
+   }
+  },
+  "reliability_within_person": {
+   "persons": 176,
+   "median_split_half_raw": 0.694635731492873,
+   "median_split_half_deviation": 0.05213257615468358,
+   "share_deviation_reliability_above_0": 0.7556818181818182
+  }
+ },
+ "edaic_new": {
+  "windows": 5214,
+  "persons": 86,
+  "eta2_group_median": 0.07135985745302886,
+  "eta2_group_range": [
+   0.011178751877644543,
+   0.134736509008532
+  ],
+  "eta2_person_median": 0.03045439983667329,
+  "r_wording": {
+   "window_raw": 0.8970710529643999,
+   "window_centred": 0.9082545918182624,
+   "person_raw": 0.6327836451316672,
+   "person_centred": 0.578645209936556,
+   "person_centred_whitened": 0.3343306751929409
+  },
+  "effective_rank": {
+   "wording": 5.956729827576523,
+   "person_centred": 2.5319804995699093
+  },
+  "reliability_population": {
+   "raw": {
+    "raw": {
+     "split_half": 0.9394126289527609,
+     "spearman_brown": 0.9687599378581159
+    },
+    "whitened": {
+     "split_half": 0.8334445938618049,
+     "spearman_brown": 0.9091571096853396
+    }
+   },
+   "centred": {
+    "raw": {
+     "split_half": 0.9509133151015305,
+     "spearman_brown": 0.9748391255938941
+    },
+    "whitened": {
+     "split_half": 0.8673513693444098,
+     "spearman_brown": 0.9289642898314522
+    }
+   }
+  },
+  "reliability_within_person": {
+   "persons": 86,
+   "median_split_half_raw": 0.6961653573926833,
+   "median_split_half_deviation": 0.03255250416214983,
+   "share_deviation_reliability_above_0": 0.686046511627907
+  }
+ }
+}

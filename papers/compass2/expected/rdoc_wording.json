@@ -1,0 +1,25 @@
+{
+ "n_definitions": 49,
+ "per_domain": {
+  "Social Processes": 13,
+  "Positive Valence Systems": 12,
+  "Sensorimotor Systems": 9,
+  "Cognitive Systems": 7,
+  "Negative Valence Systems": 5,
+  "Arousal and Regulatory Systems": 3
+ },
+ "minilm": {
+  "effective_rank": 5.955211162567139,
+  "mean_cos_within_domain": 0.5258392095565796,
+  "mean_cos_between_domain": 0.32600289583206177,
+  "nearest_neighbour_same_domain": 0.8163265306122449,
+  "nearest_neighbour_chance": 0.18197278911564627
+ },
+ "bge": {
+  "effective_rank": 2.6683003902435303,
+  "mean_cos_within_domain": 0.6782364845275879,
+  "mean_cos_between_domain": 0.579092800617218,
+  "nearest_neighbour_same_domain": 0.7551020408163265,
+  "nearest_neighbour_chance": 0.18197278911564627
+ }
+}

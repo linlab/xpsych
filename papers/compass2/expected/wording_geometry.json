@@ -1,0 +1,194 @@
+{
+ "minilm": {
+  "symptoms": {
+   "items": 25,
+   "effective_rank": 5.9567307035127905,
+   "mean_cos_within": 0.36399988757444346,
+   "mean_cos_between": 0.2841926635746516,
+   "near_duplicates": {
+    "PHQ8_3_Sleep~PCL-C_13_Sleep": 0.8983758377980848,
+    "PHQ8_7_Concentration~PCL-C_15_Concentration": 0.7347039768501418,
+    "PHQ8_1_NoInterest~PCL-C_9_NoInterest": 0.6358610486308862
+   },
+   "near_duplicate_top_share": {
+    "PHQ8_3_Sleep~PCL-C_13_Sleep": 0.007352941176470588,
+    "PHQ8_7_Concentration~PCL-C_15_Concentration": 0.014705882352941176,
+    "PHQ8_1_NoInterest~PCL-C_9_NoInterest": 0.022058823529411766
+   }
+  },
+  "WAI-C": {
+   "Task": {
+    "forward": 7,
+    "reverse": 5,
+    "cos_forward_forward": 0.48064445474440864,
+    "cos_forward_reverse": 0.5375547618913994,
+    "centroid_load_forward": 0.7216158766607828,
+    "centroid_load_reverse": 0.8111067054896826
+   },
+   "Bond": {
+    "forward": 9,
+    "reverse": 3,
+    "cos_forward_forward": 0.6755902524535844,
+    "cos_forward_reverse": 0.676123042155283,
+    "centroid_load_forward": 0.8366518611694533,
+    "centroid_load_reverse": 0.8499016180038762
+   },
+   "Goal": {
+    "forward": 6,
+    "reverse": 6,
+    "cos_forward_forward": 0.4797333252010617,
+    "cos_forward_reverse": 0.429855022593281,
+    "centroid_load_forward": 0.6998511710160354,
+    "centroid_load_reverse": 0.7237374555954328
+   }
+  },
+  "WAI-T": {
+   "Task": {
+    "forward": 7,
+    "reverse": 5,
+    "cos_forward_forward": 0.5959221147991419,
+    "cos_forward_reverse": 0.623651963546774,
+    "centroid_load_forward": 0.7917887361451729,
+    "centroid_load_reverse": 0.8348882163833083
+   },
+   "Bond": {
+    "forward": 9,
+    "reverse": 3,
+    "cos_forward_forward": 0.6227075105959712,
+    "cos_forward_reverse": 0.6174627674202203,
+    "centroid_load_forward": 0.8069937573447377,
+    "centroid_load_reverse": 0.8149125076204969
+   },
+   "Goal": {
+    "forward": 6,
+    "reverse": 6,
+    "cos_forward_forward": 0.541195718181685,
+    "cos_forward_reverse": 0.46765015520530223,
+    "centroid_load_forward": 0.745786595387319,
+    "centroid_load_reverse": 0.7094707533019272
+   }
+  },
+  "WAI-O": {
+   "Task": {
+    "forward": 7,
+    "reverse": 5,
+    "cos_forward_forward": 0.7123494509546592,
+    "cos_forward_reverse": 0.6181907290143518,
+    "centroid_load_forward": 0.8381017856270631,
+    "centroid_load_reverse": 0.822846878059819
+   },
+   "Bond": {
+    "forward": 9,
+    "reverse": 3,
+    "cos_forward_forward": 0.7999064518565598,
+    "cos_forward_reverse": 0.6094265118413162,
+    "centroid_load_forward": 0.8989430705700122,
+    "centroid_load_reverse": 0.7247897983459817
+   },
+   "Goal": {
+    "forward": 6,
+    "reverse": 6,
+    "cos_forward_forward": 0.6628849172833801,
+    "cos_forward_reverse": 0.518089000537671,
+    "centroid_load_forward": 0.8129874437463651,
+    "centroid_load_reverse": 0.7087624849400873
+   }
+  }
+ },
+ "bge": {
+  "symptoms": {
+   "items": 25,
+   "effective_rank": 2.559611428049097,
+   "mean_cos_within": 0.6205393520836066,
+   "mean_cos_between": 0.5689472222552644,
+   "near_duplicates": {
+    "PHQ8_3_Sleep~PCL-C_13_Sleep": 0.9093064317044082,
+    "PHQ8_7_Concentration~PCL-C_15_Concentration": 0.7949945981697084,
+    "PHQ8_1_NoInterest~PCL-C_9_NoInterest": 0.7794840460238106
+   },
+   "near_duplicate_top_share": {
+    "PHQ8_3_Sleep~PCL-C_13_Sleep": 0.007352941176470588,
+    "PHQ8_7_Concentration~PCL-C_15_Concentration": 0.014705882352941176,
+    "PHQ8_1_NoInterest~PCL-C_9_NoInterest": 0.022058823529411766
+   }
+  },
+  "WAI-C": {
+   "Task": {
+    "forward": 7,
+    "reverse": 5,
+    "cos_forward_forward": 0.7200556803428022,
+    "cos_forward_reverse": 0.6312379180474977,
+    "centroid_load_forward": 0.8397856737353501,
+    "centroid_load_reverse": 0.8430299816041582
+   },
+   "Bond": {
+    "forward": 9,
+    "reverse": 3,
+    "cos_forward_forward": 0.8150001816122319,
+    "cos_forward_reverse": 0.7224059883701188,
+    "centroid_load_forward": 0.9052461922883823,
+    "centroid_load_reverse": 0.8513303026984026
+   },
+   "Goal": {
+    "forward": 6,
+    "reverse": 6,
+    "cos_forward_forward": 0.7078241903408657,
+    "cos_forward_reverse": 0.6237434455063694,
+    "centroid_load_forward": 0.8291193327627654,
+    "centroid_load_reverse": 0.8356143504098316
+   }
+  },
+  "WAI-T": {
+   "Task": {
+    "forward": 7,
+    "reverse": 5,
+    "cos_forward_forward": 0.7695101797443743,
+    "cos_forward_reverse": 0.6478822921119315,
+    "centroid_load_forward": 0.8612327127241167,
+    "centroid_load_reverse": 0.8509711134343988
+   },
+   "Bond": {
+    "forward": 9,
+    "reverse": 3,
+    "cos_forward_forward": 0.7984023381480392,
+    "cos_forward_reverse": 0.7345893012540846,
+    "centroid_load_forward": 0.8983315646458221,
+    "centroid_load_reverse": 0.8638195936647112
+   },
+   "Goal": {
+    "forward": 6,
+    "reverse": 6,
+    "cos_forward_forward": 0.7504268556183414,
+    "cos_forward_reverse": 0.6625103532999107,
+    "centroid_load_forward": 0.853190851395325,
+    "centroid_load_reverse": 0.8516260599285648
+   }
+  },
+  "WAI-O": {
+   "Task": {
+    "forward": 7,
+    "reverse": 5,
+    "cos_forward_forward": 0.8132431655854218,
+    "cos_forward_reverse": 0.714545739465342,
+    "centroid_load_forward": 0.8912765589510979,
+    "centroid_load_reverse": 0.8732508814707274
+   },
+   "Bond": {
+    "forward": 9,
+    "reverse": 3,
+    "cos_forward_forward": 0.8653633167295014,
+    "cos_forward_reverse": 0.7252312543605423,
+    "centroid_load_forward": 0.9298470930395886,
+    "centroid_load_reverse": 0.8306287231661752
+   },
+   "Goal": {
+    "forward": 6,
+    "reverse": 6,
+    "cos_forward_forward": 0.8183749754627319,
+    "cos_forward_reverse": 0.6935537115603464,
+    "centroid_load_forward": 0.8871672523416135,
+    "centroid_load_reverse": 0.8511709002009101
+   }
+  }
+ }
+}

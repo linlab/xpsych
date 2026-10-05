@@ -1,0 +1,512 @@
+{
+ "A_estimators": {
+  "cond_M": 23.923084619827836,
+  "n=189,g=0.0": {
+   "naive": {
+    "r_truth": [
+     0.41358617644255163,
+     0.022911773885150675
+    ],
+    "beyond_wording": [
+     0.00019117023469457332,
+     0.07606852646213697
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.005132663356933754,
+     0.06299951088572239
+    ],
+    "beyond_wording": [
+     0.004645702537331216,
+     0.06421803371022516
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     -0.11442289339954637,
+     0.04938277954268784
+    ],
+    "beyond_wording": [
+     0.020511092562395635,
+     0.05003224048162572
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     -0.08381757945038601,
+     0.054810195831424456
+    ],
+    "beyond_wording": [
+     0.01957714837691189,
+     0.051485900701822865
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 109,
+    "diag_nonpositive": 178,
+    "indefinite": 200,
+    "inadmissible": 178
+   },
+   "inverse_admissible_n": 22
+  },
+  "n=189,g=0.1": {
+   "naive": {
+    "r_truth": [
+     0.4256839482850127,
+     0.02129026110931516
+    ],
+    "beyond_wording": [
+     0.03684711796071282,
+     0.07266756984300796
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.05842472989080239,
+     0.060272318296583305
+    ],
+    "beyond_wording": [
+     0.03217514853996039,
+     0.06081685076910181
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     -0.07461025486854192,
+     0.06029922924016436
+    ],
+    "beyond_wording": [
+     0.043494546571498,
+     0.051283942394454454
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     -0.07117888790051667,
+     0.060485718600541964
+    ],
+    "beyond_wording": [
+     0.0339668960862963,
+     0.052817733313482294
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 93,
+    "diag_nonpositive": 167,
+    "indefinite": 200,
+    "inadmissible": 167
+   },
+   "inverse_admissible_n": 33
+  },
+  "n=189,g=0.2": {
+   "naive": {
+    "r_truth": [
+     0.45323553308548953,
+     0.016679901934937916
+    ],
+    "beyond_wording": [
+     0.130655698803508,
+     0.060103956013268095
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.19605652501964385,
+     0.05753108279378941
+    ],
+    "beyond_wording": [
+     0.11143546836128429,
+     0.05675774778221728
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     -0.08103197821549467,
+     0.054724436693733
+    ],
+    "beyond_wording": [
+     0.044345311726179615,
+     0.04705423502051415
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     -0.024681540808563888,
+     0.07041678950509547
+    ],
+    "beyond_wording": [
+     0.07075162929177227,
+     0.05467284889539685
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 90,
+    "diag_nonpositive": 175,
+    "indefinite": 200,
+    "inadmissible": 175
+   },
+   "inverse_admissible_n": 25
+  },
+  "n=189,g=0.4": {
+   "naive": {
+    "r_truth": [
+     0.49624404274268596,
+     0.01742801097824599
+    ],
+    "beyond_wording": [
+     0.27152483065524624,
+     0.05409301398199227
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.506863912680962,
+     0.049629447937122415
+    ],
+    "beyond_wording": [
+     0.3437895993745179,
+     0.06725986807510713
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     0.11535388610955497,
+     0.0811269640702762
+    ],
+    "beyond_wording": [
+     0.19010344628693304,
+     0.06349990122536156
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     0.19581192639431713,
+     0.10787661942732622
+    ],
+    "beyond_wording": [
+     0.2503259866849279,
+     0.08223906523099667
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 67,
+    "diag_nonpositive": 153,
+    "indefinite": 200,
+    "inadmissible": 153
+   },
+   "inverse_admissible_n": 47
+  },
+  "n=86,g=0.0": {
+   "naive": {
+    "r_truth": [
+     0.3904011275640915,
+     0.027849978154977972
+    ],
+    "beyond_wording": [
+     0.0022644138722431335,
+     0.06374607181404143
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.002785997496529712,
+     0.05805644044577083
+    ],
+    "beyond_wording": [
+     0.003786902423596885,
+     0.058231590041685335
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     -0.09254251547366107,
+     0.07331336932567414
+    ],
+    "beyond_wording": [
+     0.028210903247982044,
+     0.05463594581252002
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     -0.0910709204632401,
+     0.0564682813223275
+    ],
+    "beyond_wording": [
+     0.013571613105220598,
+     0.053490736739484644
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 97,
+    "diag_nonpositive": 168,
+    "indefinite": 200,
+    "inadmissible": 168
+   },
+   "inverse_admissible_n": 32
+  },
+  "n=86,g=0.1": {
+   "naive": {
+    "r_truth": [
+     0.39878346940445,
+     0.03029982119873046
+    ],
+    "beyond_wording": [
+     0.017445180186866485,
+     0.07275210396126747
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.03373740133131473,
+     0.060637041750238915
+    ],
+    "beyond_wording": [
+     0.01581185055466283,
+     0.062242763521102654
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     -0.08212885207891539,
+     0.0621346407788867
+    ],
+    "beyond_wording": [
+     0.022872531324305088,
+     0.06374029930439509
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     -0.0810787826710554,
+     0.06028326976086294
+    ],
+    "beyond_wording": [
+     0.020315444148439648,
+     0.05514579792107554
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 88,
+    "diag_nonpositive": 169,
+    "indefinite": 200,
+    "inadmissible": 169
+   },
+   "inverse_admissible_n": 31
+  },
+  "n=86,g=0.2": {
+   "naive": {
+    "r_truth": [
+     0.432434349176241,
+     0.028166743303331705
+    ],
+    "beyond_wording": [
+     0.09475827017243539,
+     0.0730517658269441
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.13975869250364886,
+     0.06292235932267558
+    ],
+    "beyond_wording": [
+     0.0781308996825587,
+     0.06444801144903012
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     -0.07638950898930134,
+     0.05109832187572868
+    ],
+    "beyond_wording": [
+     0.034219951437562145,
+     0.04254202583155208
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     -0.04290270958544237,
+     0.0694005877263434
+    ],
+    "beyond_wording": [
+     0.048445875036262874,
+     0.05682841952668472
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 87,
+    "diag_nonpositive": 169,
+    "indefinite": 200,
+    "inadmissible": 169
+   },
+   "inverse_admissible_n": 31
+  },
+  "n=86,g=0.4": {
+   "naive": {
+    "r_truth": [
+     0.47852764736045317,
+     0.024781247034807274
+    ],
+    "beyond_wording": [
+     0.2138291152667653,
+     0.06553123237009836
+    ]
+   },
+   "whitened": {
+    "r_truth": [
+     0.39307040489988254,
+     0.057303437871833
+    ],
+    "beyond_wording": [
+     0.24173683586558767,
+     0.07066739618284389
+    ]
+   },
+   "inverse_admissible": {
+    "r_truth": [
+     0.04772496544455131,
+     0.05622095730853223
+    ],
+    "beyond_wording": [
+     0.13349867375643107,
+     0.06024921018162213
+    ]
+   },
+   "inverse_psd": {
+    "r_truth": [
+     0.09427683561705655,
+     0.09184412023884368
+    ],
+    "beyond_wording": [
+     0.16191493275176927,
+     0.07395305565305688
+    ]
+   },
+   "inverse_failures": {
+    "g2_nonpositive": 70,
+    "diag_nonpositive": 161,
+    "indefinite": 199,
+    "inadmissible": 161
+   },
+   "inverse_admissible_n": 39
+  }
+ },
+ "B_anisotropic_nuisance": {
+  "matched nuisance": {
+   "g=0.0": {
+    "wording_reference": {
+     "rejection_rate": 0.12,
+     "reps": 200,
+     "mean_partial_r": 0.06369638689313444
+    },
+    "within_person_reference": {
+     "rejection_rate": 0.045,
+     "reps": 200,
+     "mean_partial_r": 0.001088438657915803
+    }
+   },
+   "g=0.4": {
+    "wording_reference": {
+     "rejection_rate": 0.99,
+     "reps": 100,
+     "mean_partial_r": 0.22827114136386265
+    },
+    "within_person_reference": {
+     "rejection_rate": 0.97,
+     "reps": 100,
+     "mean_partial_r": 0.2454132648611345
+    }
+   }
+  },
+  "between-person nuisance stronger": {
+   "g=0.0": {
+    "wording_reference": {
+     "rejection_rate": 0.07,
+     "reps": 200,
+     "mean_partial_r": 0.08251019386441716
+    },
+    "within_person_reference": {
+     "rejection_rate": 0.04,
+     "reps": 200,
+     "mean_partial_r": 0.011642659887470676
+    }
+   },
+   "g=0.4": {
+    "wording_reference": {
+     "rejection_rate": 0.89,
+     "reps": 100,
+     "mean_partial_r": 0.1445579869497854
+    },
+    "within_person_reference": {
+     "rejection_rate": 0.95,
+     "reps": 100,
+     "mean_partial_r": 0.20064803796404537
+    }
+   }
+  },
+  "nuisance in different directions": {
+   "g=0.0": {
+    "wording_reference": {
+     "rejection_rate": 0.095,
+     "reps": 200,
+     "mean_partial_r": 0.06049506663576652
+    },
+    "within_person_reference": {
+     "rejection_rate": 0.865,
+     "reps": 200,
+     "mean_partial_r": 0.1501611120200561
+    }
+   },
+   "g=0.4": {
+    "wording_reference": {
+     "rejection_rate": 0.99,
+     "reps": 100,
+     "mean_partial_r": 0.22992047560020967
+    },
+    "within_person_reference": {
+     "rejection_rate": 1.0,
+     "reps": 100,
+     "mean_partial_r": 0.26330561068126757
+    }
+   }
+  },
+  "genuine within-person dynamics": {
+   "g=0.0": {
+    "wording_reference": {
+     "rejection_rate": 0.075,
+     "reps": 200,
+     "mean_partial_r": 0.012740839256958321
+    },
+    "within_person_reference": {
+     "rejection_rate": 0.975,
+     "reps": 200,
+     "mean_partial_r": -0.2116305449293886
+    }
+   },
+   "g=0.4": {
+    "wording_reference": {
+     "rejection_rate": 1.0,
+     "reps": 100,
+     "mean_partial_r": 0.274131311224848
+    },
+    "within_person_reference": {
+     "rejection_rate": 0.52,
+     "reps": 100,
+     "mean_partial_r": -0.10983428465216413
+    }
+   }
+  }
+ },
+ "C_person_permutation": {
+  "geometry_true": 0.44070292380296916,
+  "geometry_shuffled_max_abs_change": 1.6653345369377348e-16,
+  "paired_true": 0.7010893898162491,
+  "paired_shuffled_95": [
+   -0.16239493824462323,
+   0.14291451525757692
+  ]
+ }
+}

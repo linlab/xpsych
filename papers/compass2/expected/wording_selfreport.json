@@ -1,0 +1,26 @@
+{
+ "discovery": {
+  "minilm": {
+   "r_selfreport_wording": 0.5929733155152571,
+   "r_naive_selfreport": 0.41923773650835133,
+   "partial_naive_selfreport_given_wording": 0.029332713151685987
+  },
+  "bge": {
+   "r_selfreport_wording": 0.5809304642222045,
+   "r_naive_selfreport": 0.4713544166159875,
+   "partial_naive_selfreport_given_wording": 0.12024468446482797
+  }
+ },
+ "confirmation": {
+  "minilm": {
+   "r_selfreport_wording": 0.4297271148622585,
+   "r_naive_selfreport": 0.36258718223576564,
+   "partial_naive_selfreport_given_wording": 0.12966904192848924
+  },
+  "bge": {
+   "r_selfreport_wording": 0.40337060955527454,
+   "r_naive_selfreport": 0.2132525818775026,
+   "partial_naive_selfreport_given_wording": -0.06930615138004283
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "sessions": 786,
+ "sessions_with_several_tags": 159,
+ "tag_counts": {
+  "anxiety": 498,
+  "depression": 374,
+  "schizophrenia": 71,
+  "suicidal": 12
+ },
+ "client": {
+  "Task": {
+   "r2_keyed_by_topic": 0.05531332658913619,
+   "slope": 0.4428743678680696,
+   "eta2_collection_keyed": 0.01685337863336724,
+   "eta2_collection_topic": 0.008555278182029724,
+   "eta2_collection_keyed_beyond_topic": 0.022147447064072123
+  },
+  "Bond": {
+   "r2_keyed_by_topic": 0.9059411755487627,
+   "slope": 4.7540482012249585,
+   "eta2_collection_keyed": 0.0035015816991242317,
+   "eta2_collection_topic": 0.005021765828132629,
+   "eta2_collection_keyed_beyond_topic": 0.05778539127458722
+  },
+  "Goal": {
+   "r2_keyed_by_topic": 0.04990326285677759,
+   "slope": -0.8640539876769482,
+   "eta2_collection_keyed": 0.0057674414739271864,
+   "eta2_collection_topic": 0.009002413600683212,
+   "eta2_collection_keyed_beyond_topic": 0.004899205155132188
+  }
+ },
+ "therapist": {
+  "Task": {
+   "r2_keyed_by_topic": 0.03431897846078301,
+   "slope": 0.5510506004905564,
+   "eta2_collection_keyed": 0.004677901490718241,
+   "eta2_collection_topic": 0.002358566038310528,
+   "eta2_collection_keyed_beyond_topic": 0.00615506934691956
+  },
+  "Bond": {
+   "r2_keyed_by_topic": 0.656043042394788,
+   "slope": 5.4201589575931335,
+   "eta2_collection_keyed": 0.002638710005315569,
+   "eta2_collection_topic": 0.017925502732396126,
+   "eta2_collection_keyed_beyond_topic": 0.020694098160049808
+  },
+  "Goal": {
+   "r2_keyed_by_topic": 0.029123474179008436,
+   "slope": -0.8625638677765501,
+   "eta2_collection_keyed": 0.005122804501677216,
+   "eta2_collection_topic": 0.005867733620107174,
+   "eta2_collection_keyed_beyond_topic": 0.007481888852960263
+  }
+ },
+ "sessions_with_both_roles": 783,
+ "role_offset_therapist_minus_client": {
+  "Task": {
+   "keyed": -0.01690328220949971,
+   "topic": -0.047384172677993774,
+   "r_keyed_gap_with_topic_gap": 0.3181625174626024
+  },
+  "Bond": {
+   "keyed": -0.2011478665351973,
+   "topic": -0.044984620064496994,
+   "r_keyed_gap_with_topic_gap": 0.9426093532476166
+  },
+  "Goal": {
+   "keyed": 0.057232684916753734,
+   "topic": -0.03491465374827385,
+   "r_keyed_gap_with_topic_gap": -0.11835115077985339
+  }
+ }
+}
