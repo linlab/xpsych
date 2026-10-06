@@ -6,8 +6,9 @@ Use `import xpsych as xp`, then `xp.compass(...)` for construct scores and
 `xp.rsa(...)` for psychometric representational similarity analysis. Both use
 ordered item profiles. Scores test a different question from population geometry.
 
-Install a checkout with `python -m pip install .`; use `'.[text]'` for the optional
-local embedding and entailment adapters. NumPy and SciPy are the core dependencies.
+Install from PyPI with `python -m pip install --pre xpsych`; use
+`python -m pip install --pre 'xpsych[text]'` for the optional local embedding and
+entailment adapters. For a development checkout, use `python -m pip install .`. NumPy and SciPy are the core dependencies.
 Python 3.10+ is supported; exact paper reproduction uses Python 3.11.
 
 Start with the real public-domain IPIP-50 inventory using `xp.instruments.ipip50()`.

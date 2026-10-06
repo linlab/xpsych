@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0a1 (unreleased)
+## 0.1.0a1 (2026-10-06)
 
 - Psychometric RSA through `xpsych.rsa`, including item RDMs and cross-source comparison.
 - COMPASS construct scoring through `xpsych.compass`, with explicit item keys.

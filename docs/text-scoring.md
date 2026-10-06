@@ -1,6 +1,7 @@
 # Local text scoring
 
-Install the optional backend with `python -m pip install '.[text]'` from the checkout.
+Install the optional backend with `python -m pip install --pre 'xpsych[text]'`.
+From a development checkout, use `python -m pip install '.[text]'`.
 The core package remains usable without these dependencies.
 
 ```python

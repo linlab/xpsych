@@ -1,5 +1,11 @@
 # xpsych: A Python toolbox for explainable psychiatry
 
+[![PyPI](https://img.shields.io/pypi/v/xpsych?include_prereleases)](https://pypi.org/project/xpsych/)
+[![Tests](https://github.com/linlab/xpsych/actions/workflows/tests.yml/badge.svg)](https://github.com/linlab/xpsych/actions/workflows/tests.yml)
+[![Coverage](https://img.shields.io/badge/coverage-99.39%25-brightgreen)](https://github.com/linlab/xpsych/actions/workflows/tests.yml)
+[![Python](https://img.shields.io/pypi/pyversions/xpsych)](https://pypi.org/project/xpsych/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **Psychometric RSA and COMPASS construct scoring, with explicit measurement assumptions.**
 
 xpsych connects observations to psychological constructs through instrument items.
@@ -21,15 +27,15 @@ For reproducible software problems, use [GitHub Issues](https://github.com/linla
 Python 3.10 or later:
 
 ```bash
-git clone https://github.com/linlab/xpsych.git
-cd xpsych
-python -m pip install .
+python -m pip install --pre xpsych
 # Optional embedding and entailment models:
-python -m pip install '.[text]'
+python -m pip install --pre 'xpsych[text]'
 ```
 
 The core requires NumPy and SciPy. Importing xpsych does not load models or download
-weights. Install this rebuilt toolbox from GitHub until its PyPI release is available.
+weights. The current release is `0.1.0a1`; `--pre` selects this alpha release.
+For development or paper reproduction, clone the repository and install with
+`python -m pip install .`.
 
 ## Quick start
 
