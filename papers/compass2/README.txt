@@ -19,7 +19,7 @@ requires prepared row-level files and instrument inputs, so run it only after th
 full pipeline described below; it does not operate on reference aggregates alone.
 
 Citation: Baihan Lin (2026), COMPASS 2.0: psychometric representational similarity
-analysis distinguishes symptom structure from personal signal. arXiv: TBA.
+analysis distinguishes symptom structure from personal signal. arXiv:2610.06615. https://arxiv.org/abs/2610.06615
 
 Inputs for a full reproduction
 

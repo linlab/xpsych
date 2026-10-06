@@ -27,6 +27,7 @@ docs = ["mkdocs>=1.6"]
 [project.urls]
 Repository = "https://github.com/linlab/xpsych"
 Issues = "https://github.com/linlab/xpsych/issues"
+Paper = "https://arxiv.org/abs/2610.06615"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/xpsych"]

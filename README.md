@@ -29,7 +29,7 @@ python -m pip install '.[text]'
 ```
 
 The core requires NumPy and SciPy. Importing xpsych does not load models or download
-weights. This is research software; a PyPI release is not yet available.
+weights. Install this rebuilt toolbox from GitHub until its PyPI release is available.
 
 ## Quick start
 
@@ -196,9 +196,9 @@ package; the repository and source distribution also include the paper bundle.
 If you use xpsych, psychometric RSA or COMPASS 2.0, please cite:
 
 > Lin, Baihan (2026). *COMPASS 2.0: psychometric representational similarity
-> analysis distinguishes symptom structure from personal signal*. arXiv: **TBA**.
+> analysis distinguishes symptom structure from personal signal*. [arXiv:2610.06615](https://arxiv.org/abs/2610.06615).
 
-The paper has been submitted to arXiv; its identifier is pending announcement.
+The preprint is available at [arXiv:2610.06615](https://arxiv.org/abs/2610.06615).
 See [citation metadata](CITATION.cff).
 
 The package contains no participant transcripts, response records or model weights.

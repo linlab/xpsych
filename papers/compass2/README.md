@@ -2,7 +2,7 @@
 
 This folder accompanies **COMPASS 2.0: psychometric representational similarity
 analysis distinguishes symptom structure from personal signal**, by Baihan Lin.
-Citation: Lin, Baihan (2026), **arXiv: TBA** (identifier pending announcement).
+Citation: Lin, Baihan (2026), [arXiv:2610.06615](https://arxiv.org/abs/2610.06615).
 
 Install xpsych from the repository root first:
 
